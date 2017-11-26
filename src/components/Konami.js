@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Mousetrap from 'mousetrap';
+import Mousetrap from 'mousetrap'
 
 class Konami extends Component {
   constructor() {
@@ -19,7 +19,7 @@ popUp() {
 }
   render() {
     return (
-      <div>Hello this is Konami</div>
+      <div>Hello, {this.props.name}, this is Konami</div>
     );
   }
 }
